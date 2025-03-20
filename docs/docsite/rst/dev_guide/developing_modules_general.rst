@@ -50,6 +50,8 @@ To create a new module in an existing collection called ``my_namespace.my_collec
 .. literalinclude:: ../../../../examples/scripts/my_test.py
    :language: python
 
+.. _creating_info_facts:
+
 Creating an info or a facts module
 ==================================
 
