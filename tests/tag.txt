@@ -2,7 +2,7 @@
 #    uv pip compile --universal --output-file tests/tag.txt tests/tag.in
 click==8.1.8
     # via typer
-colorama==0.4.6 ; platform_system == 'Windows'
+colorama==0.4.6 ; sys_platform == 'win32'
     # via click
 gitdb==4.0.12
     # via gitpython
