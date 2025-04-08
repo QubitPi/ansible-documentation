@@ -18,7 +18,7 @@ click==8.1.8
     #   typer-slim
 codeowners==0.7.0
     # via -r tests/../hacking/pr_labeler/requirements.txt
-colorama==0.4.6 ; sys_platform == 'win32' or platform_system == 'Windows'
+colorama==0.4.6 ; sys_platform == 'win32'
     # via
     #   click
     #   colorlog
